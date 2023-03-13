@@ -11,8 +11,8 @@ import Link from "next/link";
 
 function Footer() {
   return (
-    <footer className="w-full bg-secondary">
-      <div className="text-white max-w-screen-2xl m-auto">
+    <footer className="w-full bg-[#0e142cfc]">
+      <div className="text-white max-w-screen-xl m-auto">
         <div className="grid w-full border-b border-b-white py-6 mb-10">
           <h1 className="font-bold text-[20px] m-auto mb-2">
             У вас есть идеи? Свяжитесь с нами!
@@ -33,20 +33,20 @@ function Footer() {
               sodales in volutpat ullamcorper amet adipiscing fermentum.
             </p>
             <div className="flex items-center gap-6 mb-10">
-              <a href="#">
-                <IconBrandInstagram />
+              <a href="#" className="cp">
+                <IconBrandInstagram className="hover:animate-spin h-7 w-7 mr-3 ..."/>
               </a>
               <a href="#">
-                <IconBrandFacebook />
+                <IconBrandFacebook className="hover:animate-spin h-7 w-7 mr-3 ..."/>
               </a>
               <a href="#">
-                <IconBrandYoutube />
+                <IconBrandYoutube className="hover:animate-spin h-7 w-7 mr-3 ..."/>
               </a>
               <a href="#">
-                <IconBrandTwitter />
+                <IconBrandTwitter className="hover:animate-spin h-7 w-7 mr-3 ..."/>
               </a>
               <a href="#">
-                <IconBrandGithub />
+                <IconBrandGithub className="hover:animate-spin h-7 w-7 mr-3 ..."/>
               </a>
             </div>
           </div>

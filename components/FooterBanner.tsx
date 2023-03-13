@@ -7,7 +7,7 @@ import GirlPhoneImage from "../assets/images/girlPhone.png";
 function FooterBanner() {
   return (
     <div className="bg-primary py-10">
-      <div className="flex items-center max-w-[80%] m-auto">
+      <div className="flex items-center max-w-[80%] m-auto mt-14">
         <div className="text-white text-center md:text-start">
           <h2 className="font-bold text-[30px]  md:text-[35px] mb-6">
             Скачай прямо сейчас !
@@ -20,10 +20,16 @@ function FooterBanner() {
           </p>
           <div className="flex items-center gap-2 justify-center md:justify-start">
             <a href="#">
-              <GooglePlayBadgeSvg width={150} />
+              <GooglePlayBadgeSvg
+                width={150}
+                className="hover:animate-pulse h-100 w-150 mr-3 ..."
+              />
             </a>
             <a href="#">
-              <AppStoreBadgeSvg width={150} />
+              <AppStoreBadgeSvg
+                width={150}
+                className="hover:animate-pulse h-100 w-150 mr-3 ..."
+              />
             </a>
           </div>
         </div>

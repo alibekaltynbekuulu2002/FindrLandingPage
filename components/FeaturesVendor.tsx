@@ -1,26 +1,36 @@
 import React from "react";
 import { IconUsers, IconAd, IconDiscountCheck } from "@tabler/icons-react";
 import MockUpLogoSvg from "../assets/svg/mockup.svg";
+// import BasketPhoneImage from "../assets/images/Basketphone.jpg";
+import ExportImage from "../assets/images/Export.jpg";
+import Image from "next/image";
 function FeaturesVendor() {
   return (
-    <div className="flex items-start justify-between gap-20">
-      <div className="">
+    <div className="flex items-start justify-between gap-20 py-[30px] bg-[#b1e1cbfc]">
+      <div className="max-w-screen-xl m-auto">
         <h1 className="font-bold text-[30px] md:text-[35px] mb-6  text-secondary m-auto text-center lg:text-start">
           Преимущества для продавцов
         </h1>
-        <p className="font-medium mb-[5%] max-w-[900px]   text-darkGray m-auto text-center lg:text-start">
-          Продавцы могут легко создать свой профиль на нашем приложении,
-          добавить свои товары и управлять заказами, установить цены и
-          предоставить клиентам удобные способы оплаты и доставки. Findr
-          предоставляет множество возможностей для продавцов, которые могут
-          увеличить их доход и аудиторию, улучшить свой бизнес без необходимости
-          инвестирования в маркетинг, создание собственной торговой площадки или
-          управление сложной инфраструктурой.
-        </p>
+        <div className="flex w-full">
+          <p className="font-medium mb-[5%] max-w-[900px]   text-darkGray m-auto text-center lg:text-start">
+            Продавцы могут легко создать свой профиль на нашем приложении,
+            добавить свои товары и управлять заказами, установить цены и
+            предоставить клиентам удобные способы оплаты и доставки. Findr
+            предоставляет множество возможностей для продавцов, которые могут
+            увеличить их доход и аудиторию, улучшить свой бизнес без
+            необходимости инвестирования в маркетинг, создание собственной
+            торговой площадки или управление сложной инфраструктурой.
+          </p>
+          <Image
+            src={ExportImage}
+            alt="Phone"
+            className="w-[50%] hidden lg:block"
+          />
+        </div>
         <div className="flex items-center  gap-4 mb-10 max-w-[500px] m-auto">
           <IconUsers color="#00bb03" className="min-w-[50px] min-h-[50px]" />
           <div className="">
-            <h3 className="font-bold text-[20px] mb-2  text-secondary">
+            <h3 className="font-bold text-[20px] mb-2  text-secondary mt-20">
               Большая аудитория
             </h3>
             <p className="font-medium max-w-[900px] text-darkGray">
@@ -60,7 +70,8 @@ function FeaturesVendor() {
           </div>
         </div>
       </div>
-      <MockUpLogoSvg className="w-[40%] hidden lg:block" />
+
+      {/* <BasketPhoneImage className="w-[40%] hidden lg:block" /> */}
     </div>
   );
 }

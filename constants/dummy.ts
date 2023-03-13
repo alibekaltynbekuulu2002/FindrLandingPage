@@ -24,7 +24,7 @@ export const feedbacks = [
     id: 4,
     star: 5,
     text: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit.Suspendisse varius enim in eros elementum tristique. Duis cursus, mi."',
-    fullName: "Yryskeldi Js8ov",
+    fullName: "Yryskeldi Beishenbekov",
     position: "Customer",
   },
   {

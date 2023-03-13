@@ -7,8 +7,9 @@ import {
 
 function Feautures() {
   return (
-    <div className="w-full shadow-sm">
-      <h1 className="font-bold text-[25px] md:text-[35px] mb-2 text-center text-secondary">
+    <div className="w-full shadow-sm py-[20px] bg-[#b1e1cbfc]">
+     <div className="max-w-screen-xl m-auto ">
+     <h1 className="font-bold text-[25px] md:text-[35px] mb-2 text-center text-secondary">
         Приумущества нашего приложения для покупателей
       </h1>
       <p className="font-medium mb-[5%] max-w-[900px] m-auto text-center text-darkGray">
@@ -27,7 +28,7 @@ function Feautures() {
           <h3 className="font-bold text-[20px] mb-2 text-center text-secondary">
             Большой выбор товаров{" "}
           </h3>
-          <p className="font-medium mb-6 text-center text-darkGray">
+          <p className="font-medium mb-6 text-center text-darkGray max-w-[300px]">
             Findr объединяет продавцов из разных регионов, что позволяет
             покупателям выбирать из большого количества товаров и услуг
           </p>
@@ -42,7 +43,7 @@ function Feautures() {
           <h3 className="font-bold text-[20px] mb-2 text-center text-secondary">
             Надежность и безопасность
           </h3>
-          <p className="font-medium mb-6 text-center text-darkGray">
+          <p className="font-medium mb-6 text-center text-darkGray max-w-[300px]">
             Мы обеспечивают защиту данных покупателей и продавцов, а также
             предоставляют механизмы решения споров
           </p>
@@ -57,12 +58,13 @@ function Feautures() {
           <h3 className="font-bold text-[20px] mb-2 text-center text-secondary">
             Удобство сравнения товаров
           </h3>
-          <p className="font-medium mb-6 text-center text-darkGray">
+          <p className="font-medium mb-6 text-center text-darkGray max-w-[320px]">
             Покупатели могут легко сравнить товары и услуги от разных продавцов
             на нашем приложении
           </p>
         </div>
       </div>
+     </div>
     </div>
   );
 }
