@@ -25,18 +25,18 @@ export default function Home() {
         <link rel="icon" href="/favicon.png" />
       </Head>
       <Header />
-      <main>
-        <Banner />
-        <Feautures />
-        <FeaturesVendor />
-        <Partners />
-        <Screenshots />
-        <Feedbacks />
-        <FeedbackForm />
-        <Faq />
-        <Contacts />
-        <FooterBanner />
-      </main>
+      {/* <main> */}
+      <Banner />
+      <Feautures />
+      <FeaturesVendor />
+      <Partners />
+      <Screenshots />
+      <Feedbacks />
+      <FeedbackForm />
+      <Faq />
+      <Contacts />
+      {/* </main> */}
+      <FooterBanner />
       <Footer />
     </>
   );

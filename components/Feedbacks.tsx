@@ -7,22 +7,24 @@ import TextField from "@mui/material/TextField";
 import PreviewFeedbackImage from "../assets/images/preview.png";
 function Feedbacks() {
   return (
-    <div className="p-2 lg:p-0">
-      <h2 className="font-bold text-[30px] md:text-[35px] mb-6  text-secondary text-center">
-        Отзывы наших клиентов
-      </h2>
-      <div className="grid grid-cols-1 gap-y-2 md:grid-cols-2 gap-2 lg:grid-cols-3 mb-5">
-        {feedbacks.map((feedback) => {
-          return (
-            <Feedback
-              fullName={feedback.fullName}
-              position={feedback.position}
-              rating={feedback.star}
-              text={feedback.text}
-              key={feedback.id}
-            />
-          );
-        })}
+    <div className="p-2 lg:p-0  bg-[#b1e1cbfc]">
+      <div  className="max-w-screen-xl m-auto py-[100px]">
+        <h2 className="font-bold text-[30px] md:text-[35px] mb-6  text-secondary text-center">
+          Отзывы наших клиентов
+        </h2>
+        <div className="grid grid-cols-1 gap-y-2 md:grid-cols-2 gap-2 lg:grid-cols-3 mb-5">
+          {feedbacks.map((feedback) => {
+            return (
+              <Feedback
+                fullName={feedback.fullName}
+                position={feedback.position}
+                rating={feedback.star}
+                text={feedback.text}
+                key={feedback.id}
+              />
+            );
+          })}
+        </div>
       </div>
     </div>
   );

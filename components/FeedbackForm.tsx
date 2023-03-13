@@ -3,8 +3,8 @@ import React from "react";
 
 function FeedbackForm() {
   return (
-    <div className="w-full">
-      <div className=" max-w-2xl m-auto border border-[#ddd] p-4 rounded-md">
+    <div className="w-full py-[100px] bg-[#b1e1cbfc]">
+      <div className=" max-w-xl m-auto border border-[#ddd] p-4 rounded-md">
         <h2 className="font-bold text-[30px] md:text-[35px] mb-6  text-secondary text-center">
           Оставьте свой отзыв
         </h2>

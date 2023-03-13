@@ -3,8 +3,10 @@ import React from "react";
 
 function Contacts() {
   return (
-    <div className="max-w-sm m-auto grid">
-      <h2 className="font-bold text-[20px] mb-2 text-center text-secondary">
+    <div
+      className="w-full m-auto grid bg-[#b1e1cbfc] pb-20"
+    >
+      <h2 className="font-bold text-[20px] mb-2 text-center text-secondary mt-[100px]">
         Остались вопросы?
       </h2>
       <p className="font-medium mb-6 text-center text-darkGray">
