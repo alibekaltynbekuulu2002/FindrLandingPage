@@ -5,15 +5,14 @@ import {
   IconBrandTwitter,
   IconBrandYoutube,
   IconBrandGithub,
-  IconBrandGit,
 } from "@tabler/icons-react";
 import Link from "next/link";
 
 function Footer() {
   return (
     <footer className="w-full bg-secondary">
-      <div className="text-white max-w-screen-2xl m-auto">
-        <div className="grid w-full border-b border-b-white py-6 mb-10">
+      <div className="m-auto text-white max-w-screen-2xl">
+        <div className="grid w-full py-6 mb-10 border-b border-b-white">
           <h1 className="font-bold text-[20px] m-auto mb-2">
             У вас есть идеи? Свяжитесь с нами!
           </h1>
@@ -24,10 +23,10 @@ function Footer() {
             Связаться
           </button>
         </div>
-        <div className="flex items-start justify-start p-4 lg:p-0 lg:justify-between gap-20 flex-wrap">
+        <div className="flex flex-wrap items-start justify-start gap-20 p-4 lg:p-0 lg:justify-between">
           <div className="text-white">
             <h3 className="font-bold text-[20px]  m-auto mb-2">O Yoowe</h3>
-            <p className="font-medium mb-6 max-w-sm">
+            <p className="max-w-sm mb-6 font-medium">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
               dictum aliquet accumsan porta lectus ridiculus in mattis. Netus
               sodales in volutpat ullamcorper amet adipiscing fermentum.

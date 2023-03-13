@@ -3,11 +3,11 @@ import React from "react";
 
 function Contacts() {
   return (
-    <div className="max-w-sm m-auto grid">
+    <div className="grid max-w-sm m-auto">
       <h2 className="font-bold text-[20px] mb-2 text-center text-secondary">
         Остались вопросы?
       </h2>
-      <p className="font-medium mb-6 text-center text-darkGray">
+      <p className="mb-6 font-medium text-center text-darkGray">
         Задайте вопрос который вас интересует.
       </p>
       <button

@@ -18,15 +18,15 @@ const SimpleAccordion: React.FC<AccordionProps> = ({ question, answer }) => {
         <p className="font-bold ">{question}</p>
         <div className="flex items-center">
           {isOpen ? (
-            <IconMinus className="h-5 w-5 text-gray-500" />
+            <IconMinus className="w-5 h-5 text-gray-500" />
           ) : (
-            <IconPlus className="h-5 w-5 text-gray-500" />
+            <IconPlus className="w-5 h-5 text-gray-500" />
           )}
         </div>
       </div>
       {isOpen && (
         <div className="p-4">
-          <p className="font-medium mb-6 text-darkGray">{answer}</p>
+          <p className="mb-6 font-medium text-darkGray">{answer}</p>
         </div>
       )}
     </div>
